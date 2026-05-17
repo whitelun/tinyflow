@@ -1,0 +1,26 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境（如果你用）
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 数据集和模型文件（大文件不适合放 Git，单独管理）
+data/
+checkpoints/
+*.pth
+*.h5
+*.pb
+
+# 系统文件
+.DS_Store
+Thumbs.db
